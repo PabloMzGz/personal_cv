@@ -1,0 +1,204 @@
+\documentclass[8pt]{article}
+\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage[margin=2.25cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\usepackage{url}
+ 
+\title{\bfseries\Huge Pablo Martínez González}
+\author{pmartinez@dtic.ua.es}
+\date{\today}
+ 
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+ 
+\begin{document}
+\begin{center}
+    %\small Pablo Martínez González\\
+	\Huge Pablo Martinez-Gonzalez\\
+	%\large \texttt{< pmartinez @ dtic.ua.es >}\\
+	\Large PhD Student\\
+	%\Large \textbf{\url{www.dtic.ua.es/~pmartinez}}\\
+	\today
+\end{center}
+%\noindent\makebox[\linewidth]{\rule{0.88\paperwidth}{0.4pt}}
+%\\
+\bigskip
+\begin{minipage}[ht]{0.65\textwidth}
+%Carretera San Vicente del Raspeig s/n - 03690\\
+Department of Computer Technology (DTIC)\\
+University of Alicante (\textbf{Spain})\\
+\end{minipage}
+\hfill
+\begin{minipage}[ht]{0.3\textwidth}
+Phone: (+34) 622 33 58 11\\
+\textbf{Mail: pmartinez@dtic.ua.es}\\
+\\
+- \href{https://scholar.google.com/citations?user=d7F3nPUAAAAJ}{\textbf{Google Scholar}}\\
+- \href{https://www.linkedin.com/in/pablo-martinez-gonzalez/}{\textbf{LinkedIn}}
+%Mail: pablo.martinez.ua@gmail.com\\
+\end{minipage}
+ 
+\section*{Interests and Objectives}
+
+My main area of interest lies on the intersection of Machine Learning, 3D Computer Vision and 3D Computer Graphics. My PhD Thesis, which I'm starting right now, will be focused on 6D object pose estimation by using deep learning techniques, mainly trained with synthetically generated data. My other related passions are GPGPU programming, video game development and Physics.
+ 
+\section*{Work/Research Experience}
+\begin{tabular}{L!{\VRule}R}
+2018--Ongoing &{\bf Research Engineer and Faculty }\\
+(4 months) & \textbf{Department of Computer Technology, University of Alicante}\\
+& Currently working as a research engineer as a consequence of my PhD grant. In addition to supporting the development of my PhD thesis, the grant involves teaching hours to bachelor students. Right now my research is focusing on the use of synthetic data for 6D object pose estimation. I'm also interested on applying incremental learning techniques to that problem.\\
+& \\
+2018 &{\bf Research Intern }\\
+(8 months) & \textbf{Department of Computer Technology, University of Alicante}\\
+& Worked on the development of an UnrealEngine-based platform/tool useful for synthetic and photorealistic data generation for deep learning algorithms applied to computer vision problems. The resulting paper was presented at IROS 2018 conference in Madrid. \\
+& \\
+2016--2017&{\bf Junior programmer}\\
+(11 months) & \textbf{Gestión Tributaria Territorial (a local tax management company), Alicante}\\
+& Worked on maintaining and extending a web platform (C\#) and its database architecture (SQL, PL/SQL). This platform is used by public organisms (city councils, deputations, ...) to manage their data (taxes, penalties, files, ...).\\
+& \\
+2013--2014&{\bf Research Intern}\\
+(4 months) & \textbf{Department of Computer Technology, University of Alicante}\\
+& Worked on computer vision and computational geometry algorithms. Our efforts were directed towards the development of an accelerated variant of the Iterative Closest Point method under the supervision of Higinio Mora-Mora.\\
+\end{tabular}
+ 
+\section*{Educational Background}
+\begin{tabular}{L!{\VRule}R}
+2018--2022 &\textbf{Doctor of Philosophy in Machine Learning and Computer Vision}\\
+& \textbf{University of Alicante}\\
+& PhD Thesis: Incremental Learning for 6D Object Pose Detection using Synthetic Data \\
+& Advisors: José García-Rodríguez and Sergio Orts-Escolano\\
+& \\
+2015--2016 &\textbf{Master's Degree in Computer Graphics, Games and Virtual Reality}\\ 
+& \textbf{Rey Juan Carlos University}\\
+& Average Grade: 8.28/10\\
+& Master's Thesis: \emph{TempleOps: An Online Multiplayer Third-person Shooting Game with Random Map Generation (videogame development)}\\
+& Advisors: Marcos Garcia-Lorenzo\\
+& \\
+2018--Ongoing & \textbf{Bachelor's Degree in Physics}\\
+& \textbf{University of Alicante}\\
+& \\
+2011--2015 &\textbf{Bachelor's Degree in Computer Engineering}\\
+& \textbf{University of Alicante}\\
+& High Academic Performance Group -- Average grade : 9.18/10\\
+& Bachelor's Thesis: \emph{Privacy and Security when accessing Cloud Data}.\\
+& Advisors: Jeronimo Mora-Pascual\\
+& \\
+2014 & \textbf{Erasmus Intensive Programme: Big Data}\\
+& \textbf{The University of Salford}\\
+\end{tabular}
+
+\section*{Grants and Awards}
+\begin{tabular}{L!{\VRule}R}
+2018 & \textbf{FPU Grant for PhD Studies}\\
+& Granted by the Spanish Ministerio de Economía y Competitividad de España (MINECO). Considered to be the most competitive grant funded by the Spanish government with only 32 grants awarded for the Computer Science area (nationwide).\\
+& \\
+2015 & \textbf{Bachelor's Degree in Computer Engineering Extraordinary Award} \\
+& Awarded for achieving best academic records of the Degree in Computer Engineering (University of Alicante, 2011-2015) with an average grade of 9.18 out of 10 points.\\
+\end{tabular}
+
+\section*{Research}
+
+I am currently a PhD Student at the \textit{Industrial Informatics and Computer Networks (I2RC)} research group which belongs to the \textit{Department of Computer Technology (DTIC)} of the University of Alicante. I am also part of the \textit{3D Perception Lab} formed at that University to unify efforts from different departments and researchers who share focus on 3D data.
+
+\subsection*{Publications}
+
+\subsubsection*{Journals}
+
+\begin{tabular}{L!{\VRule}R}
+	\emph{\textbf{\href{https://arxiv.org/abs/1810.06936}{[j3]}}} & \textbf{UnrealROX: An eXtremely Photorealistic Virtual Reality Environment for Robotics Simulations and Synthetic Data Generation}. Pablo Martinez-Gonzalez, Sergiu Oprea, Alberto Garcia-Garcia, Alvaro Jover-Alvarez, Sergio Orts-Escolano, Jose Garcia-Rodriguez. Under Review Virtual Reality (2018). Pre-print version available at {\href{https://arxiv.org/abs/1810.06936}{arXiv}}.\\
+\end{tabular}
+\subsubsection*{Journals (cont.)}
+
+\begin{tabular}{L!{\VRule}R}
+	\emph{\textbf{\href{https://www.sciencedirect.com/science/article/pii/S1568494618302813}{[j2]}}} & \textbf{A Survey On Deep Learning Techniques for Image and Video Segmentation}. Alberto Garcia-Garcia, Sergio Orts-Escolano, Sergiu Oprea, Victor Villena-Martinez, Pablo Martinez-Gonzalez, Jose Garcia-Rodriguez. Applied Soft Computing (2018). Pre-print version available at {\href{https://arxiv.org/abs/1704.06857}{arXiv}}.\\
+	& \\
+	\emph{\textbf{\href{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164694}{[j1]}}} & \textbf{Computational Analysis of Distance Operators for the Iterative Closest Point Algorithm}. Higinio Mora-Mora, Jeronimo Mora-Pascual, Alberto Garcia-Garcia, Pablo Martinez-Gonzalez. PLOSOne (2016). \emph{doi:10.1371/journal.pone.0164694}.\\
+\end{tabular}
+
+\subsubsection*{Conferences and Congresses}
+
+\begin{tabular}{L!{\VRule}R}
+	\textit{\textbf{\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=\&arnumber=8594495}{[c3]}}} & \textbf{The RobotriX: An eXtremely Photorealistic and Very-Large-Scale Indoor Dataset of Sequences with Robot Trajectories and Interactions.} Albert Garcia-Garcia, Sergiu Oprea, Pablo Martinez-Gonzalez, Sergio Orts-Escolano, Jose Garcia-Rodriguez. International Conference on Intelligent Robots (\textbf{IROS2018}).\\
+	& \\
+  \textit{\textbf{\href{http://www.inase.org/library/2015/barcelona/bypaper/AMCME/AMCME-06.pdf}{[c2]}}} &\textbf{Efficient Matching for the Iterative Closest Point Algorithm by using Low Cost Distance Metrics.} Higinio Mora-Mora, Jeronimo Mora-Pascual, Pablo Martinez-Gonzalez, Alberto Garcia-Garcia. International Conference on Applied Mathematics and Computational Methods in Engineering (AMCME 2015).\\
+	& \\
+	\textit{\textbf{\href{http://jornadas.imm.upv.es/Modelling2014}{[c1]}}} &\textbf{Convergence Analysis and Validation of low Cost Distance Metrics for Computational Cost Reduction of the Iterative Closest Point algorithm}. Higinio Mora-Mora, Jerónimo Mora-Pascual, Pablo Martínez-González, Alberto García-García. Mathematical Modelling in Engineering \& Human Behaviour (MMEHB 2014).\\
+\end{tabular}
+
+\subsection*{Projects Participation}
+
+\begin{tabular}{L!{\VRule}R}
+	2018 -- Today & \textbf{COMBAHO} (Spanish National Project TIN2016-76515-R)\\
+	& \textit{"System for enhancing autonomy of people with acquired brain injury and dependent on their integration into society."} \\
+\end{tabular}
+
+\subsection*{Reviewer}
+
+\begin{itemize}
+	\item International Joint Conference on Neural Networks (IJCNN)
+\end{itemize}
+
+\subsection*{Societies/Memberships}
+
+\begin{itemize}
+	\item \textbf{IEEE}: Member of the Institute of Electrical and Electronics Engineers. Grade: Graduate Student Member.
+	\item \textbf{DTIC}: Member of the Council of the Department of Computer Technology, University of Alicante (Student representative).
+\end{itemize}
+
+
+\section*{Courses and training}
+
+\begin{itemize}
+	\item \textbf{Programming and Tuning Massively Parallel Systems + AI (PUMPS) Summer School}\\ Barcelona Supercomputing Center, 2018.
+	\item \textbf{Intro to Deep Learning with PyTorch}\\ Online at Udacity, 2018.
+	\item \textbf{Deep Learning Specialization}\\ Online at Coursera, 2017-2018.
+	\item \textbf{Machine Learning}\\ Online at Coursera, 2014.
+	\item \textbf{Summer Course on Scientific Applications and Computer Vision on Graphics Processors}\\ University of Alicante, 2013.
+	\item \textbf{Workshop on Scientific Applications and Computer Vision on Graphics Processors}\\ University of Alicante, 2013.	
+	\item \textbf{Functional Programming Principles in Scala (Highest Distinction)}\\
+	Online at Coursera, 2013.
+\end{itemize}
+
+\section*{Skills}
+
+\begin{itemize}
+	\item C/C++
+	\item Unreal Engine C++,Blueprints/Unity C\#
+	\item Windows/Visual Studio
+	\item Python
+	\item CUDA C++
+	\item Git
+	\item MATLAB
+	\item TensorFlow/PyTorch
+	\item Linux/Bash/GDB/CMake
+	\item System Administration
+	\item Oracle SQL/PLSQL
+	\item \LaTeX
+\end{itemize}
+
+\section*{Languages}
+\begin{tabular}{L!{\VRule}R}
+{\bf English}&{\bf Limited working proficiency (B2+)}\\
+{Spanish}&{Native}\\
+{Catalan}&{Professional working proficiency (C1)}\\
+\end{tabular}
+
+\section*{Reference List}
+\begin{itemize}
+	\item {\textbf{Jose Garcia-Rodriguez} (jgarcia@dtic.ua.es)\\
+    University of Alicante\\
+    Department of Computer Technology and Computation\\
+    Spain\\}
+	\item {\textbf{Sergio Orts-Escolano} (sorts@dtic.ua.es)\\
+University of Alicante\\
+		Department of Computer Science and Artificial Intelligence\\
+		(Former Microsoft Research)\\
+		Spain\\}
+
+\end{itemize}
+ 
+\end{document}

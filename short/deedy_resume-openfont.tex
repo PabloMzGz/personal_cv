@@ -1,0 +1,248 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Pablo}{Martinez Gonzalez}{Excited about Deep Learning, Computer Vision and Computer Graphics \\ \href{https://www.linkedin.com/in/pablo-martinez-gonzalez/}{LinkedIn} \textbullet{} \href{https://scholar.google.com/citations?user=d7F3nPUAAAAJ}{Google Scholar} \textbullet{} \href{https://github.com/PabloMzGz/}{GitHub} \\  Contact at \href{mailto:pmartinez@dtic.ua.es}{pmartinez@dtic.ua.es} or (+34) 622 33 58 11 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.495\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of Alicante}
+\descript{PhD in Deep Learning and Computer Vision}
+\location{Alicante, Spain. 2018--2022} 
+Working on my PhD thesis related to 6D object pose estimation with deep learning techniques, and trained with synthetic data.
+
+\sectionsep
+
+\descript{B.Sc. in Computer Science}
+\location{Alicante, Spain. Graduated on Sept. 2015 | 9.18/10 GPA}
+High Academic Performance Group \\
+B.Sc. Thesis: Privacy and security when accessing cloud data. 
+
+\sectionsep
+
+\descript{B.Sc. in Physics}
+\location{Alicante, Spain. 2018--Ongoing}
+
+\sectionsep
+
+\subsection{Rey Juan Carlos University}
+\descript{M.Sc. in Computer Graphics, Games and VR}
+\location{Madrid, Spain. Graduated on July 2017 | 8.28/10 GPA} 
+M.Sc. Thesis: TempleOps: An online multiplayer third-person shooting game with random map generation (videogame development).
+
+\sectionsep
+
+\subsection{University of Salford}
+\descript{Erasmus Intensive Programme: Big Data}
+\location{Manchester, UK, 2014}
+
+\sectionsep
+
+\section{Grants and awards}
+
+\begin{tabular}{ll}
+2018 & FPU Grant for PhD Studies \\
+2015 & BSc in Computer Science extraordinary \\
+& award for best academic record.  \\
+\end{tabular}
+
+\sectionsep 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Courses}
+\subsection{Udacity}
+
+\begin{tabular}{ll}
+2018 & \href{https://www.udacity.com/course/deep-learning-pytorch--ud188}{\addfontfeature{Color=blue} Intro to Deep Learning with PyTorch}
+\end{tabular}
+
+\sectionsep
+
+\subsection{Coursera}
+
+\begin{tabular}{ll}
+2018 & \href{https://www.coursera.org/specializations/deep-learning}{\addfontfeature{Color=blue} Deep Learning Specialization (5 courses)} \\
+2013 & \href{https://www.coursera.org/learn/progfun1}{\addfontfeature{Color=blue} Functional Programming Principles in Scala}
+\end{tabular}
+
+\sectionsep
+
+\subsection{Workshops and Summer Schools}
+
+\begin{tabular}{ll}
+2018 & \href{https://pumps.bsc.es/2018/front-page-content}{\addfontfeature{Color=blue} PUMPS+AI Summer School} \\
+2013 & \href{http://jgpu.dtic.ua.es}{\addfontfeature{Color=blue}Workshop on GPGPU programming} \\ 
+2013 & \href{https://web.ua.es/en/verano/2013/campus/curso-de-programacion-de-aplicaciones-cientificas-y-de-vision-por-computador-sobre-procesadores-graficos.html}{\addfontfeature{Color=blue} Summer School on GPGPU programming} \\ 
+2013 & \href{http://www.dccia.ua.es/OpenGL/es/}{\addfontfeature{Color=blue}OpenGL in depth} \\
+\end{tabular}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Skills}
+%\subsection{Programming}
+%\location{Over 5000 lines:}
+%Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
+%OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+%\location{Over 1000 lines:}
+%C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+%\location{Familiar:}
+%AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.495\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work/Research Experience}
+
+\runsubsection{Research Engineer and Faculty} \\
+\descript{University of Alicante}
+\location{(2018 -- Ongoing) 5 months}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	\item Working as a research engineer as a consequence of my PhD grant. It includes the development of my PhD thesis and teaching hours to bachelor students, among other responsibilities.
+\end{tightemize}
+
+\sectionsep
+
+\runsubsection{Research Intern} \\
+\descript{University of Alicante}
+\location{(2018) 9 months}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	\item \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8594495}{\addfontfeature{Color=blue} Paper (IROS 2018) -> \textit{The RobotriX: An eXtremely Photorealistic and Very-Large-Scale Indoor Dataset of Sequences with Robot Trajectories and Interactions}}. \href{https://www.youtube.com/watch?v=CiRc5tCtCak}{\addfontfeature{Color=blue} Video}
+	\item Development of the tool for generating synthetic and photorealistic image data for deep learning algorithms.
+\end{tightemize}
+
+\sectionsep
+
+\runsubsection{Junior Programmer}
+\\
+\descript{GTT (Gestión Tributaria Territorial), Alicante}
+\location{(2016--2017) 11 months}
+\begin{tightemize}
+\item Worked on maintaining and extending a web platform (C\#) and its database architecture (SQL, PL/SQL). This platform is used by public organisms.
+\end{tightemize}
+
+\sectionsep
+
+\section{Publications}
+\vspace{\topsep}
+\begin{tightemize}
+\item Journals: \href{https://www.sciencedirect.com/science/article/pii/S1568494618302813}{\addfontfeature{Color=blue} ASOC}, \href{https://arxiv.org/abs/1704.06857}{\addfontfeature{Color=blue} VirtualReality}, \href{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164694}{\addfontfeature{Color=blue} PLOSOne}, etc.
+
+\item Conferences: \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8594495}{\addfontfeature{Color=blue} IROS}, \href{http://www.inase.org/library/2015/barcelona/bypaper/AMCME/AMCME-06.pdf}{\addfontfeature{Color=blue} AMCME}, \href{https://ieeexplore.ieee.org/document/7965885}{\addfontfeature{Color=blue} MMEHB}, etc. 
+\end{tightemize}
+
+\section{Skills}
+\descript{Focused on}
+Deep Learning, Computer Vision and Virtual Reality \\
+\sectionsep
+\descript{Also interested in}
+GPGPU programming, 3D computer graphics and Physics \\
+\sectionsep
+\descript{Tools and libraries}
+UE4 \textbullet{} Unity \textbullet{} PyTorch \textbullet{} Tensorflow \textbullet{} Git \\
+\sectionsep
+\descript{Programming}
+Python \textbullet{} C and C++ \textbullet{} CUDA \textbullet{} \LaTeX\ \textbullet{} Java \textbullet{} Matlab \\
+
+
+\section{Languages}
+\begin{tabular}{ll}
+English & Limited working proficiency (B2+)\\
+Spanish & Native proficiency \\ 
+Catalan & Professional working proficiency (C1)\\ 
+\end{tabular}
+
+\end{minipage} 
+\end{document} \documentclass[]{article}
