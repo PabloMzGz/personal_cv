@@ -69,6 +69,7 @@
 \newcommand{\cvgithub}[1]{\href{https://github.com/#1/}{\faGithub \space #1}}
 \newcommand{\cvscholar}[1]{\href{https://scholar.google.com/citations?user=#1}{\faGraduationCap}}
 \newcommand{\cvemail}[1]{\href{mailto:#1}{\faEnvelope \space #1}}
+\newcommand{\cvemailscnd}[1]{\href{mailto:#1}{#1}}
 \newcommand{\cvorcid}[1]{\href{https://orcid.org/#1}{\faOrcid}}
 
 % Name command
@@ -78,7 +79,7 @@
 	\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2\\[5pt]
 	\color{headings}
 	\indent \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3\\
-	\indent \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #4\\
+	\indent \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{13pt}\selectfont #4\\
 	\indent \color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont Alicante, Spain. Last Updated on \today
 	
 	\vspace{7pt}
